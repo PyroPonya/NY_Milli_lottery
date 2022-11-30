@@ -32,7 +32,7 @@
               Megapari web sitesine kaydolun veya giriş yapın.
             </li>
             <a target="_blank" href="https://forms.gle/xXrhjeGVFi3oEZap6">
-              <div class="btn">Katılın</div>
+              <div class="btn btn-list">Katılın</div>
             </a>
             <li class="text">
               Promosyona katılımınızı onaylamak için formu doldurun. 01.12.2022
@@ -259,6 +259,10 @@ export default {
             box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.1)
             border-radius: 73px
             color: white
+          &-list
+            margin-left: -35px
+            @media (max-width: 421px)
+              margin-left: 2%
         .list
           font-weight: 500
           font-size: 24px

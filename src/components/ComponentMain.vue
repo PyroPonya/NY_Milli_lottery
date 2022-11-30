@@ -89,7 +89,8 @@ export default {
   background-repeat: no-repeat
   @media (max-width: 421px)
     padding-bottom: 40px
-    background-position: bottom -20px right 0
+    background-position: bottom -0px right 0
+    background-image: url('./icons/main_bg_mobile.png')
   .main_img_bg
     position: absolute
     top: 0
@@ -144,6 +145,8 @@ export default {
           background-size: contain
         &_milli
           background-image: url('/src/assets/milli_logo.svg')
+          @media (max-width: 421px)
+            background-size: 115px
         &_megapari
           background-image: url('/src/assets/megapari_logo.svg')
     .content_container
@@ -160,6 +163,8 @@ export default {
         margin-bottom: 100px
         @media (max-width: 421px)
           margin-top: 40px
+          width: 360px
+          align-items: center
         .title
           font-weight: 800
           font-size: 74px
@@ -172,6 +177,7 @@ export default {
             font-size: 38px
             line-height: 120%
             max-width: 278px
+            align-self: flex-start
         .btn
           display: flex
           align-items: center

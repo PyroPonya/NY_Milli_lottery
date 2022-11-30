@@ -157,8 +157,9 @@ export default {
   background-repeat: no-repeat
   padding-top: 40px
   @media (max-width: 421px)
-    padding-bottom: 40px
+    padding-bottom: 120px
     background-position: bottom -10px right 0
+    background-image: url('./icons/description_bg_mobile.png')
   .main_content
     max-width: 1300px
     margin: 0 auto

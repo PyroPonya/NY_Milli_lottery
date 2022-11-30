@@ -2,7 +2,7 @@
   <div>
     <footer>
       <div class="title">
-        Copyright © 2019-2020 «Megapari»
+        Copyright © 2019-2022 «Megapari»
         <br />
         All rights reserved and protected by law.
       </div>

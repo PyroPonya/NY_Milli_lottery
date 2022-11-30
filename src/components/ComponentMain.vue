@@ -102,7 +102,7 @@ export default {
     background-repeat: no-repeat
     background-image: url('./icons/main_img.png')
     @media (max-width: 421px)
-      top: 300px
+      top: 200px
       left: -10%
       width: 476px
       height: 400px
@@ -123,6 +123,7 @@ export default {
     margin-top: 60px
     @media (max-width: 421px)
       max-width: 360px
+      margin-top: 20px
     .aff
       display: flex
       flex-direction: row
@@ -172,7 +173,7 @@ export default {
           color: #FFFFFF
           max-width: 550px
           @media (max-width: 421px)
-            padding-bottom: 420px
+            padding-bottom: 320px
             font-weight: 800
             font-size: 38px
             line-height: 120%
